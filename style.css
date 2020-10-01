@@ -1,54 +1,114 @@
 
 body{
-    padding:0px;
+    
     margin:0px;
-    height:100vh;
-    width:100%;
+    text-align: center;
     background-image: url("wall.jpg");
     background-size:cover;
 }
 
-.keys{
-    display:flex;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    position: absolute;
-    top:50%;
-    left:20%;
-}
-
-.key{
-    /* width:4%; */
-    width:50px;
-    padding: 15px 20px;
-    border:3px solid black;
-    font-size: large;
+h1 {
+    font-size: 5rem;
+    color: black;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 black;
+    background-color: yellow;
+  
+  }
+  
+  footer {
+    color: #DBEDF3;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  .w:hover{
+    color:white;
+  }
+   
+    
+    .a:hover{
+      color:white;
+    }
+    
+    .s:hover{
+    
+      color:white;
+    }
+    .d:hover{
+    
+      color:white;
+    }
+    .j:hover{
+    
+      color:white;
+    }
+    .k:hover{
+    
+      color:white;
+    }
+    .l:hover{
+    
+      color:white;
+    }
+  
+  .w {    
+  background-image: url(./images/1.png);
+  }
+  
+  .a {
+  background-image: url(./images/2.png);}
+  
+  .s {
+  background-image: url(./images/3.png);}
+  
+  .d {
+  background-image: url(./images/4.png);}
+  
+  .j {
+  background-image: url(./images/5.png);}
+  
+  .k {
+  background-image: url(./images/6.png);}
+  
+  .l {
+  background-image: url(./images/7.png);}
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    color:white;
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: black;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
     text-align: center;
-    margin:5px;
-    background-color: rgba(22, 19, 12, 0.5);
-    transition: all .09s;
-}
-
-kbd{
-    color:rgb(238, 234, 9);
-    font-size: xx-large;
-}
-
-span{
-    color: darkorange;
-    font-size: medium;
-}
-
-@media screen and (max-width:1000px){
-    .key{
-    padding:5px 10px;
-}
-
-}
-
-
-.change{
-    transform: scale(1.2);
-    border-color: rgb(255, 94, 0);
-    box-shadow: 0px 0px 10px 0px rgb(255, 94, 0);
-}
+    margin: 10px;
+    background-color: white;
+  }
+  

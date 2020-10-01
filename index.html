@@ -4,67 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Drum</title>
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <script defer src="script.js"></script>
+    
   </head>
 
   <body>
-    <div class="keys">
-        <div data-key="65" class="key">
-            <kbd>A</kbd><br>
-            <span class="sound">Chack</span>
-        </div>
-        
-        <div data-key="83" class="key">
-            <kbd>S</kbd><br>
-            <span class="sound">Hihat</span>
-        </div>
-
-        <div data-key="68" class="key">
-            <kbd>D</kbd><br>
-            <span class="sound">Kick</span>
-        </div>
-
-        <div data-key="70" class="key">
-            <kbd>F</kbd><br>
-            <span class="sound">Open</span>
-        </div>
-
-        <div data-key="71" class="key">
-            <kbd>G</kbd><br>
-            <span class="sound">Badass</span>
-        </div>
-
-        <div data-key="72" class="key">
-            <kbd>H</kbd><br>
-            <span class="sound">Hurray</span>
-        </div>
-
-        <div data-key="74" class="key">
-            <kbd>J</kbd><br>
-            <span class="sound">Crack</span>
-        </div>
-
-        <div data-key="75" class="key">
-            <kbd>K</kbd><br>
-            <span class="sound">Boom</span>
-        </div>
-
-        <div data-key="76" class="key">
-            <kbd>L</kbd><br>
-            <span class="sound">Crazy</span>
-        </div>
+    <h1 id="title">Drum Kit</h1>
+    <div class="set">
+      <button class="w drum">w</button>
+      <button class="a drum">a</button>
+      <button class="s drum">s</button>
+      <button class="d drum">d</button>
+      <button class="j drum">j</button>
+      <button class="k drum">k</button>
+      <button class="l drum">l</button>
     </div>
-
-
-    <audio data-key="65" loop src="sounds/boom.mp3"></audio>
-    <audio data-key="83" loop src="sounds/burn.mp3"></audio>
-    <audio data-key="68" loop src="sounds/cymbal.mp3"></audio>
-    <audio data-key="70" loop src="sounds/driving.mp3"></audio>
-    <audio data-key="71" loop src="sounds/first_beat.mp3"></audio>
-    <audio data-key="72" loop src="sounds/furst.mp3"></audio>
-    <audio data-key="74" loop src="sounds/pound.mp3"></audio>
-    <audio data-key="75" loop src="sounds/tamba.mp3"></audio>
-    <audio data-key="76" loop src="sounds/driving.mp3"></audio>
+  
+    <script src="script.js"></script>
+  
+  
+    <footer>
+      ❤️ Made by Satish Gaud
+    </footer>
   </body>
 </html>
